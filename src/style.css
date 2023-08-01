@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+/* defaults */
+body {
+  font-family: "General Sans", sans-serif;
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+  @apply tracking-wide bg-neutral-900 text-neutral-400;
+}
+
+/* fonts */
+.azeret {
+  font-family: "Azeret Mono", sans-serif;
+}
+.general {
+  font-family: "General Sans", sans-serif;
+}
+.satoshi {
+  font-family: "Satoshi", sans-serif;
+}
